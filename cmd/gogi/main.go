@@ -97,7 +97,7 @@ func create(s string) {
 		log.Fatal(err)
 	}
 
-	_, _ = fmt.Fprintln(os.Stdout, data)
+	_, _ = fmt.Fprintln(os.Stderr, data)
 }
 
 func search(s string) {
